@@ -1,0 +1,54 @@
+.icon {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    padding-right: 7px;
+}
+
+.search {
+    float: right;
+}
+
+.gra {
+    background-image: linear-gradient(to right bottom, skyblue, violet);
+    border: 2px solid black;
+    height: 700px;
+}
+
+.box {
+    margin: 30px;
+    /* margin-left: 400px;
+    margin-right: 491px;
+    margin-top: 200px;  */
+    background-color: white;
+    border: 1px solid black;
+    opacity: 1;
+    width: 40%;
+    transform: translate(56%, 56%);
+    /* height: 30px;  */
+}
+
+.form {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.loginbutton {
+    background-image: linear-gradient(to right, skyblue, violet);
+    height: 30px;
+}
+
+.signup {
+    text-decoration: none;
+    color: violet;
+
+}
+i:hover {
+    transform: rotateY(360deg);
+    width:1px;
+    transition: 2s;
+   
+ }
+ 

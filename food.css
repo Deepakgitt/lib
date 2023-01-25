@@ -1,0 +1,60 @@
+.header{
+    width: 100%;
+}
+.title{
+    text-align: left;
+    color: white;
+    font-weight:bolder;
+    text-decoration: white;
+   
+    text-shadow: 6px 9px 5px gold;
+}
+ .title1{
+    padding: 2%;
+    background-color: black;
+    /* box-shadow: blue 20px 30px; */
+    
+}
+.para{
+    padding: 3%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 11px 9px 7px blue;
+    
+}
+.h2{
+    padding-left: 20%;
+    padding-bottom: 30%;
+}
+ .links{
+     text-decoration: none;
+    
+}
+a:link{
+
+    color: aqua;
+}  
+a:hover{
+
+    color: red;
+} 
+a:active{
+
+    color: gold;
+} 
+a:visited{
+
+    background-color: white;
+}
+.search{
+    color: white;
+    float: right;
+    font-size: 100% !important;
+    margin-right: 11px;
+    cursor: pointer; 
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }

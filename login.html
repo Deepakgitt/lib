@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://kit.fontawesome.com/fbe5c5d09a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body onload="onloadFunction()">
+
+    <div class="gra">
+        <div class="box">
+            <div style="text-align: center;">
+                <h1 style="font-family: 'Lato', sans-serif;" id="head1"></h1>
+                <div class="form">
+                    <form>
+
+                        <input type="text" placeholder="Username or Phone Number" style="width: 35%; height: 30px;"
+                            id="detail">
+                        <i class="fa-solid fa-envelope"></i><br><br>
+
+
+
+                        <input type="password" placeholder="Enter Password" style="width: 35%;height: 30px;" id="ok">
+                        <i class="fa-solid fa-lock"></i><br>
+
+                        <a href="forget" class="signup" style="margin-right: 115px;">ForgetPassword</a><br><br>
+
+                        <button type="button" style="width: 35%;" class="loginbutton"
+                            onclick="myfunction()">LOGIN</button>
+
+                    </form>
+                </div>
+            </div>
+            <p style="text-align: center;">Not a member?<a href="sing up " class="signup">Signup Now</a></p>
+        </div>
+        
+        <table style="width: 15%;border: 1px solid black; ">
+            <tr>
+                <th>name</th>
+                <th>password</th>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+    
+    </div>
+
+    <script>
+        var login = []
+        
+
+        function myfunction() {
+
+            var Username = (document.getElementById("detail").value)
+
+            // var x =21
+            // console.log(x+ "deepak")
+            var pass = (document.getElementById("ok").value)
+            // console.log(pass);
+
+            if (Username == null || Username == "") {
+                alert("Please enter username");
+                //  text = "Eneter your login details.";
+            }
+            if (pass == null || pass == "") {
+                alert("Please enter your password");
+            }
+
+            let userpass = {userName:Username,Password: pass }
+            console.log(userpass);
+            login.push(userpass);
+            console.log(login);
+        }
+        function onloadFunction() {
+           
+            
+            document.getElementById("head1").innerHTML = "Login Form"
+
+        }
+    </script>
+
+</body>
+
+</html>

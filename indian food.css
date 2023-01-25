@@ -1,0 +1,59 @@
+.indHeading {
+    /* text-align: center; */
+    font-family: 'Yellowtail', cursive;
+    font-size: 48px;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+}
+
+.icon {
+    color: black;
+    font-size: 35px;
+}
+
+.photo {
+    width: 385px;
+    height: 201px;
+}
+
+@keyframes example {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 1000px;
+    }
+}
+
+.back {
+    background-color: blue;
+}
+
+.para {
+    font-size: 23px;
+}
+
+.sideheading {
+    font-family: 'Moon Dance', cursive;
+    font-size: 30px;
+    animation-duration: 5s;
+    animation-name: sideAnimation;
+    animation-iteration-count: infinite;
+}
+@keyframes sideAnimation {
+    from{
+        color: blueviolet;
+    }
+    to{
+        color:chartreuse;
+    }
+
+}
+img{
+    float:right;
+}

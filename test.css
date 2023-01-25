@@ -1,0 +1,40 @@
+img {
+    /* position: fixed;  */
+    float: right;
+    height: 400px;
+    
+}
+
+.para{
+    font-size: 150%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color:pink;
+}
+
+a:active{
+    color: green;
+}
+
+.ok{
+    animation-duration: 4s;
+    animation-name: title;
+    
+}
+@keyframes title{
+    form{
+        color: green;
+    }
+    to{
+        color: yellow;
+    }
+}

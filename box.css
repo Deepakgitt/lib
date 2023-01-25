@@ -1,0 +1,41 @@
+.d{
+    width: 200px;
+    height:200px;
+    background-color: black;
+    margin: auto;
+    transform: translate(0px,200px);
+    border-radius: 100px;
+    animation-name: bounce;
+    animation-duration:1s;
+    position:relative;
+    animation-iteration-count: infinite;
+
+}
+@keyframes bounce{
+   0%{
+      top:0px;
+  }
+  25%{
+      top:-100px;
+  }
+  /* 50%{
+      top:0px;
+  } */
+    75%{
+    top:100px;
+  }
+  100%{
+    top:0px;
+  }  
+  
+}
+
+/* .ok{
+    width: 100px;
+    height:100px;
+    background-color:red;
+   margin-left: 50px;
+   margin-top: 50px;
+     position: absolute; 
+   transform: translate(0px,200px)
+}  */
